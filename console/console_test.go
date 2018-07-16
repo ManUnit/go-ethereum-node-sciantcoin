@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/consensus/ethash"
+	"github.com/manunit/sciantcoin/core"
+	"github.com/manunit/sciantcoin/eth"
+	"github.com/manunit/sciantcoin/internal/jsre"
+	"github.com/manunit/sciantcoin/node"
 )
 
 const (

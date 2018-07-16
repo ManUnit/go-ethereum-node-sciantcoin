@@ -35,11 +35,11 @@ import (
 	"io"
 
 	"github.com/elastic/gosigar"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/sciantcoin/rpc"
 	"github.com/mohae/deepcopy"
 	"golang.org/x/net/websocket"
 )

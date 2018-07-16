@@ -23,15 +23,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core/rawdb"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/light"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/sciantcoin/trie"
 )
 
 var (

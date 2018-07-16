@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/sciantcoin/p2p/discover"
+	"github.com/manunit/sciantcoin/p2p/simulations"
+	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
+	"github.com/manunit/sciantcoin/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/params"
 )
 
 type diffTest struct {

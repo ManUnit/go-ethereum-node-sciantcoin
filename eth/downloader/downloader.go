@@ -26,14 +26,14 @@ import (
 	"time"
 
 	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core/rawdb"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/sciantcoin/params"
 )
 
 var (

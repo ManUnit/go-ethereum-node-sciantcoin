@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/manunit/sciantcoin/accounts"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/sciantcoin/internal/debug"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/sciantcoin/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

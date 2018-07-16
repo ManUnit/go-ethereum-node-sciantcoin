@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/eth/downloader"
+	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/sciantcoin/rlp"
 )
 
 func init() {

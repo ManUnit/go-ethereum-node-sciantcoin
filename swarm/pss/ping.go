@@ -23,9 +23,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/protocols"
-	"github.com/ethereum/go-ethereum/swarm/log"
+	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/sciantcoin/p2p/protocols"
+	"github.com/manunit/sciantcoin/swarm/log"
 )
 
 // Generic ping protocol implementation for

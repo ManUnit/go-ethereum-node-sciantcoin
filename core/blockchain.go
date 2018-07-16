@@ -27,21 +27,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/common/mclock"
+	"github.com/manunit/sciantcoin/consensus"
+	"github.com/manunit/sciantcoin/core/rawdb"
+	"github.com/manunit/sciantcoin/core/state"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/core/vm"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/sciantcoin/trie"
 	"github.com/hashicorp/golang-lru"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
@@ -317,7 +317,7 @@ func (bc *BlockChain) FastSyncCommitHead(hash common.Hash) error {
 	// Make sure that both the block as well at its state trie exists
 	block := bc.GetBlockByHash(hash)
 	if block == nil {
-		return fmt.Errorf("non existent block [%x…]", hash[:4])
+		return fmt.Errorf("non existent block [%x???]", hash[:4])
 	}
 	if _, err := trie.NewSecure(block.Root(), bc.stateCache.TrieDB(), 0); err != nil {
 		return err
@@ -782,7 +782,7 @@ func (bc *BlockChain) InsertReceiptChain(blockChain types.Blocks, receiptChain [
 		if blockChain[i].NumberU64() != blockChain[i-1].NumberU64()+1 || blockChain[i].ParentHash() != blockChain[i-1].Hash() {
 			log.Error("Non contiguous receipt insert", "number", blockChain[i].Number(), "hash", blockChain[i].Hash(), "parent", blockChain[i].ParentHash(),
 				"prevnumber", blockChain[i-1].Number(), "prevhash", blockChain[i-1].Hash())
-			return 0, fmt.Errorf("non contiguous insert: item %d is #%d [%x…], item %d is #%d [%x…] (parent [%x…])", i-1, blockChain[i-1].NumberU64(),
+			return 0, fmt.Errorf("non contiguous insert: item %d is #%d [%x???], item %d is #%d [%x???] (parent [%x???])", i-1, blockChain[i-1].NumberU64(),
 				blockChain[i-1].Hash().Bytes()[:4], i, blockChain[i].NumberU64(), blockChain[i].Hash().Bytes()[:4], blockChain[i].ParentHash().Bytes()[:4])
 		}
 	}
@@ -801,7 +801,7 @@ func (bc *BlockChain) InsertReceiptChain(blockChain types.Blocks, receiptChain [
 		}
 		// Short circuit if the owner header is unknown
 		if !bc.HasHeader(block.Hash(), block.NumberU64()) {
-			return i, fmt.Errorf("containing header #%d [%x…] unknown", block.Number(), block.Hash().Bytes()[:4])
+			return i, fmt.Errorf("containing header #%d [%x???] unknown", block.Number(), block.Hash().Bytes()[:4])
 		}
 		// Skip if the entire data is already known
 		if bc.HasBlock(block.Hash(), block.NumberU64()) {
@@ -1016,7 +1016,7 @@ func (bc *BlockChain) insertChain(chain types.Blocks) (int, []interface{}, []*ty
 			log.Error("Non contiguous block insert", "number", chain[i].Number(), "hash", chain[i].Hash(),
 				"parent", chain[i].ParentHash(), "prevnumber", chain[i-1].Number(), "prevhash", chain[i-1].Hash())
 
-			return 0, nil, nil, fmt.Errorf("non contiguous insert: item %d is #%d [%x…], item %d is #%d [%x…] (parent [%x…])", i-1, chain[i-1].NumberU64(),
+			return 0, nil, nil, fmt.Errorf("non contiguous insert: item %d is #%d [%x???], item %d is #%d [%x???] (parent [%x???])", i-1, chain[i-1].NumberU64(),
 				chain[i-1].Hash().Bytes()[:4], i, chain[i].NumberU64(), chain[i].Hash().Bytes()[:4], chain[i].ParentHash().Bytes()[:4])
 		}
 	}

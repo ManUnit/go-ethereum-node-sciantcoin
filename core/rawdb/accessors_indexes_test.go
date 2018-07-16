@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/ethdb"
 )
 
 // Tests that positional lookup metadata can be stored and retrieved.

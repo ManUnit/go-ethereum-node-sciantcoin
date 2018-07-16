@@ -25,9 +25,9 @@ import (
 	"sync"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/internal/ethapi"
+	"github.com/manunit/sciantcoin/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

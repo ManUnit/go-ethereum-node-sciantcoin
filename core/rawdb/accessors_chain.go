@@ -21,10 +21,10 @@ import (
 	"encoding/binary"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

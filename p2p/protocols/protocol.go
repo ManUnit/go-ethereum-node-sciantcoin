@@ -38,12 +38,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/swarm/spancontext"
-	"github.com/ethereum/go-ethereum/swarm/tracing"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/sciantcoin/swarm/spancontext"
+	"github.com/manunit/sciantcoin/swarm/tracing"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

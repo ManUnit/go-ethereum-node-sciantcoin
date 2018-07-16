@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

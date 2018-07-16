@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core"
+	"github.com/manunit/sciantcoin/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/pot"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/sciantcoin/swarm/pot"
 )
 
 /*
@@ -522,7 +522,7 @@ func (k *Kademlia) string() string {
 	var rows []string
 
 	rows = append(rows, "=========================================================================")
-	rows = append(rows, fmt.Sprintf("%v KΛÐΞMLIΛ hive: queen's address: %x", time.Now().UTC().Format(time.UnixDate), k.BaseAddr()[:3]))
+	rows = append(rows, fmt.Sprintf("%v K??????MLI?? hive: queen's address: %x", time.Now().UTC().Format(time.UnixDate), k.BaseAddr()[:3]))
 	rows = append(rows, fmt.Sprintf("population: %d (%d), MinProxBinSize: %d, MinBinSize: %d, MaxBinSize: %d", k.conns.Size(), k.addrs.Size(), k.MinProxBinSize, k.MinBinSize, k.MaxBinSize))
 
 	liverows := make([]string, k.MaxProxDisplay)

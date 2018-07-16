@@ -24,13 +24,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/common/mclock"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/crypto/sha3"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/p2p/netutil"
+	"github.com/manunit/sciantcoin/rlp"
 )
 
 var (

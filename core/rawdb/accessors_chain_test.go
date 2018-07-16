@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/crypto/sha3"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/rlp"
 )
 
 // Tests block header storage and retrieval operations.

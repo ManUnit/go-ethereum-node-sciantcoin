@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/consensus/ethash"
+	"github.com/manunit/sciantcoin/core"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/sciantcoin/trie"
 )
 
 var (

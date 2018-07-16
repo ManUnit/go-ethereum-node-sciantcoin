@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/pss"
+	"github.com/manunit/sciantcoin/common/hexutil"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/sciantcoin/swarm/pss"
 )
 
 const (

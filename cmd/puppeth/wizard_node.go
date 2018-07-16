@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/manunit/sciantcoin/accounts/keystore"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

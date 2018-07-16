@@ -33,14 +33,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
-	"github.com/ethereum/go-ethereum/swarm/multihash"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/common/hexutil"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/swarm/api"
+	swarm "github.com/manunit/sciantcoin/swarm/api/client"
+	"github.com/manunit/sciantcoin/swarm/multihash"
+	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/sciantcoin/swarm/testutil"
 )
 
 func init() {

@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/manunit/sciantcoin/consensus/ethash"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/core/vm"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

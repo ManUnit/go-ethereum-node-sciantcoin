@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/common/bitutil"
+	"github.com/manunit/sciantcoin/core/bloombits"
+	"github.com/manunit/sciantcoin/core/rawdb"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/sciantcoin/node"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/sciantcoin/swarm/storage"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/manunit/sciantcoin/accounts/abi"
+	"github.com/manunit/sciantcoin/common"
 
 	"bytes"
 	"os"

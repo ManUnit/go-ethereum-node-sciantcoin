@@ -3414,7 +3414,7 @@ var _bundleJs = []byte((((((((((`!function(modules) {
                         width: Object(__WEBPACK_IMPORTED_MODULE_7__util_DOMUtils__.c)(word, props.style).width
                     };
                 }),
-                spaceWidth: Object(__WEBPACK_IMPORTED_MODULE_7__util_DOMUtils__.c)(" ", props.style).width
+                spaceWidth: Object(__WEBPACK_IMPORTED_MODULE_7__util_DOMUtils__.c)("??", props.style).width
             };
         } catch (e) {
             return null;
@@ -6334,7 +6334,7 @@ var _bundleJs = []byte((((((((((`!function(modules) {
     })("versions", []).push({
         version: core.version,
         mode: __webpack_require__(102) ? "pure" : "global",
-        copyright: "© 2018 Denis Pushkarev (zloirock.ru)"
+        copyright: "?? 2018 Denis Pushkarev (zloirock.ru)"
     });
 }, function(module, exports) {
     module.exports = "constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf".split(",");
@@ -9589,7 +9589,7 @@ var _bundleJs = []byte((((((((((`!function(modules) {
     }), exports.specialProperty = void 0;
     var _defineProperty2 = __webpack_require__(12), _defineProperty3 = _interopRequireDefault(_defineProperty2), _keys = __webpack_require__(55), _keys2 = _interopRequireDefault(_keys), _extends3 = __webpack_require__(6), _extends4 = _interopRequireDefault(_extends3);
     exports.default = exactProp;
-    var specialProperty = exports.specialProperty = "exact-prop: ​";
+    var specialProperty = exports.specialProperty = "exact-prop: ???";
 }, function(module, exports, __webpack_require__) {
     var hide = __webpack_require__(39);
     module.exports = function(target, src, safe) {
@@ -10013,10 +10013,10 @@ var _bundleJs = []byte((((((((((`!function(modules) {
         "'": 222
     }, aliases = exports.aliases = {
         windows: 91,
-        "⇧": 16,
-        "⌥": 18,
-        "⌃": 17,
-        "⌘": 91,
+        "???": 16,
+        "???": 18,
+        "???": 17,
+        "???": 91,
         ctl: 17,
         control: 17,
         option: 18,
@@ -12136,7 +12136,7 @@ var _bundleJs = []byte((((((((((`!function(modules) {
     });
 }, function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
-    var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(138), __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(884), __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(885), __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(356), __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(357), __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(358), __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(888), prefixes = [ "y", "z", "a", "f", "p", "n", "µ", "m", "", "k", "M", "G", "T", "P", "E", "Z", "Y" ];
+    var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(138), __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(884), __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(885), __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(356), __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(357), __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(358), __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(888), prefixes = [ "y", "z", "a", "f", "p", "n", "??", "m", "", "k", "M", "G", "T", "P", "E", "Z", "Y" ];
     __webpack_exports__.a = function(locale) {
         function newFormat(specifier) {
             function format(value) {
@@ -22318,7 +22318,7 @@ var _bundleJs = []byte((((((((((`!function(modules) {
                 if (null !== mixedRef && "function" != typeof mixedRef && "object" != typeof mixedRef) {
                     if (returnFiber.mode & StrictMode) {
                         var componentName = getComponentName(returnFiber) || "Component";
-                        didWarnAboutStringRefInStrictMode[componentName] || (warning(!1, 'A string ref, "%s", has been found within a strict mode tree. String refs are a source of potential bugs and should be avoided. We recommend using createRef() instead.\n%s\n\nLearn more about using refs safely here:\nhttps://fb.me/react-strict-mode-string-ref', mixedRef, getStackAddendumByWorkInProgressFiber(returnFiber)), 
+                        didWarnAboutStringRefInStrictMode[componentName] || (warning(!1, 'A string ref, "%s",??has been found within a strict mode tree. String refs are a source of potential bugs and should be avoided. We recommend using createRef() instead.\n%s\n\nLearn more about using refs safely here:\nhttps://fb.me/react-strict-mode-string-ref', mixedRef, getStackAddendumByWorkInProgressFiber(returnFiber)), 
                         didWarnAboutStringRefInStrictMode[componentName] = !0);
                     }
                     if (element._owner) {
@@ -22501,7 +22501,7 @@ var _bundleJs = []byte((((((((((`!function(modules) {
                             knownKeys.add(key);
                             break;
                         }
-                        warning(!1, "Encountered two children with the same key, `)) + ("`" + (`%s` + "`")))) + (((`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s", key, getCurrentFiberStackAddendum$7());
+                        warning(!1, "Encountered two children with the same key, `)) + ("`" + (`%s` + "`")))) + (((`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted ??? the behavior is unsupported and could change in a future version.%s", key, getCurrentFiberStackAddendum$7());
                     }
                     return knownKeys;
                 }
@@ -26036,9 +26036,9 @@ var _bundleJs = []byte((((((((((`!function(modules) {
             var validateDOMNesting$1 = validateDOMNesting, supportsPersistence = !1, cloneInstance = shim, createContainerChildSet = shim, appendChildToContainerChildSet = shim, finalizeContainerChildren = shim, replaceContainerChildren = shim, createElement = createElement$1, createTextNode = createTextNode$1, setInitialProperties = setInitialProperties$1, diffProperties = diffProperties$1, updateProperties = updateProperties$1, diffHydratedProperties = diffHydratedProperties$1, diffHydratedText = diffHydratedText$1, warnForUnmatchedText = warnForUnmatchedText$1, warnForDeletedHydratableElement = warnForDeletedHydratableElement$1, warnForDeletedHydratableText = warnForDeletedHydratableText$1, warnForInsertedHydratedElement = warnForInsertedHydratedElement$1, warnForInsertedHydratedText = warnForInsertedHydratedText$1, updatedAncestorInfo = validateDOMNesting$1.updatedAncestorInfo, precacheFiberNode$1 = precacheFiberNode, updateFiberProps$1 = updateFiberProps, SUPPRESS_HYDRATION_WARNING = void 0;
             SUPPRESS_HYDRATION_WARNING = "suppressHydrationWarning";
             var eventsEnabled = null, selectionInformation = null, now = now$1, isPrimaryRenderer = !0, scheduleDeferredCallback = scheduleWork, cancelDeferredCallback = cancelScheduledWork, supportsMutation = !0, supportsHydration = !0, enableUserTimingAPI = !0, enableGetDerivedStateFromCatch = !1, enableSuspense = !1, debugRenderPhaseSideEffects = !1, debugRenderPhaseSideEffectsForStrictMode = !0, replayFailedUnitOfWorkWithInvokeGuardedCallback = !0, warnAboutDeprecatedLifecycles = !1, warnAboutLegacyContextAPI = !1, enableProfilerTimer = !0, fireGetDerivedStateFromPropsOnStateUpdates = !0, supportsUserTiming = "undefined" != typeof performance && "function" == typeof performance.mark && "function" == typeof performance.clearMarks && "function" == typeof performance.measure && "function" == typeof performance.clearMeasures, currentFiber = null, currentPhase = null, currentPhaseFiber = null, isCommitting = !1, hasScheduledUpdateInCurrentCommit = !1, hasScheduledUpdateInCurrentPhase = !1, commitCountInCurrentWorkLoop = 0, effectCountInCurrentCommit = 0, isWaitingForCallback = !1, labelsInCurrentCommit = new Set(), formatMarkName = function(markName) {
-                return "⚛ " + markName;
+                return "??? " + markName;
             }, formatLabel = function(label, warning$$1) {
-                return (warning$$1 ? "⛔ " : "⚛ ") + label + (warning$$1 ? " Warning: " + warning$$1 : "");
+                return (warning$$1 ? "??? " : "??? ") + label + (warning$$1 ? " Warning: " + warning$$1 : "");
             }, beginMark = function(markName) {
                 performance.mark(formatMarkName(markName));
             }, clearMark = function(markName) {
@@ -32677,7 +32677,7 @@ var _bundleJs = []byte((((((((((`!function(modules) {
                 }, _react2.default.createElement("span", {
                     style: _common.styles.light
                 }, "Commit "), _react2.default.createElement("a", {
-                    href: "https://github.com/ethereum/go-ethereum/commit/" + general.commit,
+                    href: "https://github.com/manunit/sciantcoin/commit/" + general.commit,
                     target: "_blank",
                     style: {
                         color: "inherit",

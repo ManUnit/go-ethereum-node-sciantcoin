@@ -27,11 +27,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/common/bitutil"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/crypto/sha3"
+	"github.com/manunit/sciantcoin/log"
 )
 
 const (

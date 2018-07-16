@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/sciantcoin/p2p/discover"
+	"github.com/manunit/sciantcoin/p2p/simulations"
+	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
+	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/sciantcoin/swarm/network"
+	"github.com/manunit/sciantcoin/swarm/storage"
 )
 
 type Simulation struct {

@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/crypto/ecies"
+	"github.com/manunit/sciantcoin/crypto/secp256k1"
+	"github.com/manunit/sciantcoin/crypto/sha3"
+	"github.com/manunit/sciantcoin/p2p/discover"
+	"github.com/manunit/sciantcoin/rlp"
 	"github.com/golang/snappy"
 )
 

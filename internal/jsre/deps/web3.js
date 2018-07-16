@@ -5862,7 +5862,7 @@ module.exports = Shh;
  * @author Alex Beregszaszi <alex@rtfs.hu>
  * @date 2016
  *
- * Reference: https://github.com/ethereum/go-ethereum/blob/swarm/internal/web3ext/web3ext.go#L33
+ * Reference: https://github.com/manunit/sciantcoin/blob/swarm/internal/web3ext/web3ext.go#L33
  */
 
 "use strict";
@@ -10868,7 +10868,7 @@ module.exports = transfer;
 }(this, function (CryptoJS) {
 
 	/** @preserve
-	(c) 2012 by Cédric Mesnil. All rights reserved.
+	(c) 2012 by C??dric Mesnil. All rights reserved.
 
 	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -13489,7 +13489,7 @@ module.exports = transfer;
 			return continuationByte & 0x3F;
 		}
 
-		// If we end up here, it’s not a continuation byte
+		// If we end up here, it???s not a continuation byte
 		throw Error('Invalid continuation byte');
 	}
 

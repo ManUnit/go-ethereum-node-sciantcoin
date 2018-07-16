@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/manunit/sciantcoin/common/math"
 )
 
 // Memory implements a simple memory model for the ethereum virtual machine.

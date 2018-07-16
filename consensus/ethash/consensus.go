@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/sciantcoin/consensus"
+	"github.com/manunit/sciantcoin/consensus/misc"
+	"github.com/manunit/sciantcoin/core/state"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/params"
 	set "gopkg.in/fatih/set.v0"
 )
 

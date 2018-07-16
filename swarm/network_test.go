@@ -28,16 +28,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/node"
+	"github.com/manunit/sciantcoin/p2p/discover"
+	"github.com/manunit/sciantcoin/p2p/simulations"
+	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
+	"github.com/manunit/sciantcoin/swarm/api"
+	"github.com/manunit/sciantcoin/swarm/network"
+	"github.com/manunit/sciantcoin/swarm/storage"
 	colorable "github.com/mattn/go-colorable"
 )
 
@@ -641,7 +641,7 @@ func shuffle(n int, swap func(i, j int)) {
 
 	// Fisher-Yates shuffle: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 	// Shuffle really ought not be called with n that doesn't fit in 32 bits.
-	// Not only will it take a very long time, but with 2³¹! possible permutations,
+	// Not only will it take a very long time, but with 2????! possible permutations,
 	// there's no way that any PRNG can have a big enough internal state to
 	// generate even a minuscule percentage of the possible permutations.
 	// Nevertheless, the right API signature accepts an int n, so handle it as best we can.

@@ -26,13 +26,13 @@ import (
 	"time"
 
 	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core"
+	"github.com/manunit/sciantcoin/core/rawdb"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

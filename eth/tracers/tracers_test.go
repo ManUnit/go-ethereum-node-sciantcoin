@@ -25,15 +25,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/common/hexutil"
+	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/sciantcoin/core"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/core/vm"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/sciantcoin/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

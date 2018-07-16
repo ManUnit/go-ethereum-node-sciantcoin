@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/core/rawdb"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/eth"
+	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/sciantcoin/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

@@ -30,17 +30,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/ens"
-	"github.com/ethereum/go-ethereum/contracts/ens/contract"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/multihash"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/manunit/sciantcoin/accounts/abi/bind"
+	"github.com/manunit/sciantcoin/accounts/abi/bind/backends"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/contracts/ens"
+	"github.com/manunit/sciantcoin/contracts/ens/contract"
+	"github.com/manunit/sciantcoin/core"
+	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/swarm/multihash"
+	"github.com/manunit/sciantcoin/swarm/storage"
 )
 
 var (

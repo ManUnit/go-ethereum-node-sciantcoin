@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/manunit/sciantcoin/accounts"
+	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/sciantcoin/log"
 	"github.com/karalabe/hid"
 )
 

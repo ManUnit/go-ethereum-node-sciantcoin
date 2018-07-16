@@ -19,10 +19,10 @@ package rawdb
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/sciantcoin/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/sciantcoin/params"
 )
 
 // Config are the configuration options for the Interpreter
