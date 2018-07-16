@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
 )
 
 var (

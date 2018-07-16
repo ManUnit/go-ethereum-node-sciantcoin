@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 const (

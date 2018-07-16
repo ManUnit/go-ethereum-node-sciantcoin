@@ -34,7 +34,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

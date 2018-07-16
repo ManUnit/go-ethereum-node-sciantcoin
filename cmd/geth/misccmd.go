@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/consensus/ethash"
-	"github.com/manunit/sciantcoin/eth"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus/ethash"
+	"github.com/manunit/go-ethereum-node-sciantcoineth"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 	"gopkg.in/urfave/cli.v1"
 )
 

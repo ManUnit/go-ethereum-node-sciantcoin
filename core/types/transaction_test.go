@@ -23,9 +23,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // The values in those tests are from the Transaction Tests

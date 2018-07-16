@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/rawdb"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/rawdb"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
 )
 
 // Runs multiple tests with randomized parameters.

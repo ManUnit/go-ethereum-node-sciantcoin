@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

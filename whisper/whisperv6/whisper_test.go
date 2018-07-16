@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 	"golang.org/x/crypto/pbkdf2"
 )
 

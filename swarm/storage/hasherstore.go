@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/manunit/sciantcoin/crypto/sha3"
-	"github.com/manunit/sciantcoin/swarm/storage/encryption"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/sha3"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage/encryption"
 )
 
 type chunkEncryption struct {

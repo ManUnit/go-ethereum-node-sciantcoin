@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/console"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsole"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -43,7 +43,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/manunit/sciantcoin/wiki/JavaScript-Console.`,
+See https://github.com/manunit/go-ethereum-node-sciantcoinwiki/JavaScript-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -56,7 +56,7 @@ See https://github.com/manunit/sciantcoin/wiki/JavaScript-Console.`,
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/manunit/sciantcoin/wiki/JavaScript-Console.
+See https://github.com/manunit/go-ethereum-node-sciantcoinwiki/JavaScript-Console.
 This command allows to open a console on a running geth node.`,
 	}
 
@@ -69,7 +69,7 @@ This command allows to open a console on a running geth node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/manunit/sciantcoin/wiki/JavaScript-Console`,
+JavaScript API. See https://github.com/manunit/go-ethereum-node-sciantcoinwiki/JavaScript-Console`,
 	}
 )
 

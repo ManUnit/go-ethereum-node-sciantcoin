@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/p2p/discv5"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discv5"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

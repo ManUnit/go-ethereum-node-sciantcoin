@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/manunit/sciantcoin/core/asm"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

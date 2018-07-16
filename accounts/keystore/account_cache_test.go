@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 var (

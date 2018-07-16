@@ -27,9 +27,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto/sha3"
-	"github.com/manunit/sciantcoin/swarm/bmt"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/sha3"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/bmt"
 )
 
 const MaxPO = 16

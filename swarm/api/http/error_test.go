@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/net/html"
 
-	"github.com/manunit/sciantcoin/swarm/testutil"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/testutil"
 )
 
 func TestError(t *testing.T) {

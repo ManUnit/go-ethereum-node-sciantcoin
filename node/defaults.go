@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/nat"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/nat"
 )
 
 const (

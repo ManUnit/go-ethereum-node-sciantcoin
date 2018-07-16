@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 const Version = "1.0"

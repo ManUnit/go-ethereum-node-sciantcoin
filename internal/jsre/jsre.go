@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/internal/jsre/deps"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

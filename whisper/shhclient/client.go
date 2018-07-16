@@ -20,9 +20,9 @@ import (
 	"context"
 
 	"github.com/ethereum/go-ethereum"
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/rpc"
-	whisper "github.com/manunit/sciantcoin/whisper/whisperv6"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
+	whisper "github.com/manunit/go-ethereum-node-sciantcoinwhisper/whisperv6"
 )
 
 // Client defines typed wrappers for the Whisper v6 RPC API.

@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/common/mclock"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/mclock"
 )
 
 var (

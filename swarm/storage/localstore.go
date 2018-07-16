@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/manunit/sciantcoin/metrics"
-	"github.com/manunit/sciantcoin/swarm/log"
-	"github.com/manunit/sciantcoin/swarm/storage/mock"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage/mock"
 )
 
 type LocalStoreParams struct {

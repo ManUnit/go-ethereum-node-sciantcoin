@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/manunit/sciantcoin/core/rawdb"
-	"github.com/manunit/sciantcoin/eth/downloader"
-	"github.com/manunit/sciantcoin/light"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/rawdb"
+	"github.com/manunit/go-ethereum-node-sciantcoineth/downloader"
+	"github.com/manunit/go-ethereum-node-sciantcoinlight"
 )
 
 // syncer is responsible for periodically synchronising with the network, both

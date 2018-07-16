@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
 )
 
 // errSectionOutOfBounds is returned if the user tried to add more bloom filters

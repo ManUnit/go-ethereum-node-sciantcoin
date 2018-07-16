@@ -21,17 +21,17 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/core/state"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/core/vm"
-	"github.com/manunit/sciantcoin/eth/downloader"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/params"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoineth/downloader"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // Backend interface provides the common API services (that are provided by

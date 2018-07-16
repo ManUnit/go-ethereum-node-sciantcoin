@@ -27,13 +27,13 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/accounts/keystore"
-	"github.com/manunit/sciantcoin/internal/cmdtest"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/rpc"
-	"github.com/manunit/sciantcoin/swarm"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/keystore"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/cmdtest"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm"
 )
 
 func init() {

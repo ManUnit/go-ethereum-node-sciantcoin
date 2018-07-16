@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/rlp"
-	"github.com/manunit/sciantcoin/swarm/storage"
-	whisper "github.com/manunit/sciantcoin/whisper/whisperv5"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
+	whisper "github.com/manunit/go-ethereum-node-sciantcoinwhisper/whisperv5"
 )
 
 const (

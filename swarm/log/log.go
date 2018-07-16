@@ -1,8 +1,8 @@
 package log
 
 import (
-	l "github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/metrics"
+	l "github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
 )
 
 const (

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/common/mclock"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // Filter represents a Whisper message filter

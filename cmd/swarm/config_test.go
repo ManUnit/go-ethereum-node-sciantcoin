@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/rpc"
-	"github.com/manunit/sciantcoin/swarm"
-	"github.com/manunit/sciantcoin/swarm/api"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
 
 	"github.com/docker/docker/pkg/reexec"
 )

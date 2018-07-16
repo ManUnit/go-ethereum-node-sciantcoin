@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/rpc"
-	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 )
 
 // Wrapper for receiving pss messages when using the pss API

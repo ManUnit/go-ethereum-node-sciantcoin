@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/manunit/sciantcoin/swarm/pot"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/pot"
 )
 
 // discovery bzz extension for requesting and relaying node address records

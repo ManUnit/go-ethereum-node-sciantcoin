@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/manunit/sciantcoin/cmd/internal/browser"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/internal/browser"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueURL = "https://github.com/manunit/sciantcoin/issues/new"
+const issueURL = "https://github.com/manunit/go-ethereum-node-sciantcoinissues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

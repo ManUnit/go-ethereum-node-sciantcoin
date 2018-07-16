@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

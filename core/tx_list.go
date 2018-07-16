@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

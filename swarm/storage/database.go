@@ -22,7 +22,7 @@ package storage
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"

@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/manunit/sciantcoin/accounts/keystore"
-	"github.com/manunit/sciantcoin/cmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/keystore"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

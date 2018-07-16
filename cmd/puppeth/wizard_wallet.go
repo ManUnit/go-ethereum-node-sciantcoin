@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // deployWallet creates a new web wallet based on some user input.

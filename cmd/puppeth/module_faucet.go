@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

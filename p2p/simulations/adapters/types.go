@@ -26,11 +26,11 @@ import (
 	"strconv"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // Node represents a node in a simulation network which is created by a

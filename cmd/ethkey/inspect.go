@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/manunit/sciantcoin/accounts/keystore"
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/keystore"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

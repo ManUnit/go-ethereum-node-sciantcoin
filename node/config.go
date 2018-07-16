@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/accounts/keystore"
-	"github.com/manunit/sciantcoin/accounts/usbwallet"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/keystore"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/usbwallet"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
 )
 
 const (

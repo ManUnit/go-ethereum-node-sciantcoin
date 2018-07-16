@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

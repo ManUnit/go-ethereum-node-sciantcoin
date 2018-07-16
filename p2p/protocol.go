@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/p2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
 )
 
 // Protocol represents a P2P subprotocol implementation.

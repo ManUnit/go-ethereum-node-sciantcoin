@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/rawdb"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/rawdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

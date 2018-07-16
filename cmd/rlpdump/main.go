@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 var (

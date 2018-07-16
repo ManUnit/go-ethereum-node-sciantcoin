@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

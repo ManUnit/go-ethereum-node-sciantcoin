@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/accounts/keystore"
-	"github.com/manunit/sciantcoin/accounts/usbwallet"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/internal/ethapi"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/keystore"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/usbwallet"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/ethapi"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // ExternalAPI defines the external API through which signing requests are made.
@@ -374,7 +374,7 @@ func (api *SignerAPI) SignTransaction(ctx context.Context, args SendTxArgs, meth
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/manunit/sciantcoin/wiki/Management-APIs#personal_sign
+// https://github.com/manunit/go-ethereum-node-sciantcoinwiki/Management-APIs#personal_sign
 func (api *SignerAPI) Sign(ctx context.Context, addr common.MixedcaseAddress, data hexutil.Bytes) (hexutil.Bytes, error) {
 	sighash, msg := SignHash(data)
 	// We make the request prior to looking up if we actually have the account, to prevent
@@ -413,7 +413,7 @@ func (api *SignerAPI) Sign(ctx context.Context, addr common.MixedcaseAddress, da
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be be 27 or 28 for legacy reasons.
 //
-// https://github.com/manunit/sciantcoin/wiki/Management-APIs#personal_ecRecover
+// https://github.com/manunit/go-ethereum-node-sciantcoinwiki/Management-APIs#personal_ecRecover
 func (api *SignerAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")

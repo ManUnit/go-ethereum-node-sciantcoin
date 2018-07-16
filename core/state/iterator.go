@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/rlp"
-	"github.com/manunit/sciantcoin/trie"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
+	"github.com/manunit/go-ethereum-node-sciantcointrie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

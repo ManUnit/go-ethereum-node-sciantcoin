@@ -34,9 +34,9 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 func init() {

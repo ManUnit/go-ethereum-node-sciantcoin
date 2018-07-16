@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/manunit/sciantcoin/swarm/log"
-	"github.com/manunit/sciantcoin/swarm/spancontext"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/spancontext"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

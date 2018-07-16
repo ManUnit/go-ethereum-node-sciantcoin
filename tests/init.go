@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // Forks table defines supported forks and their chain config.

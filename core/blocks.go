@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/manunit/sciantcoin/common"
+import "github.com/manunit/go-ethereum-node-sciantcoincommon"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

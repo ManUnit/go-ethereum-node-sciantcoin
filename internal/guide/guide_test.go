@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/accounts/keystore"
-	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/keystore"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
 )
 
 // Tests that the account management snippets work correctly.

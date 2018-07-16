@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/manunit/sciantcoin/core/asm"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

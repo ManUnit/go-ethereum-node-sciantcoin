@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 	colorable "github.com/mattn/go-colorable"
 )
 

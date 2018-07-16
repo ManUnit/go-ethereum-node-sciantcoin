@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

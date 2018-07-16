@@ -26,12 +26,12 @@ import (
 	"time"
 
 	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 var (

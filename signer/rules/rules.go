@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/internal/ethapi"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/signer/core"
-	"github.com/manunit/sciantcoin/signer/rules/deps"
-	"github.com/manunit/sciantcoin/signer/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/ethapi"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinsigner/core"
+	"github.com/manunit/go-ethereum-node-sciantcoinsigner/rules/deps"
+	"github.com/manunit/go-ethereum-node-sciantcoinsigner/storage"
 	"github.com/robertkrimen/otto"
 )
 

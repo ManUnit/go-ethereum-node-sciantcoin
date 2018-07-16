@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/manunit/sciantcoin/common/bitutil"
-	"github.com/manunit/sciantcoin/light"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/bitutil"
+	"github.com/manunit/go-ethereum-node-sciantcoinlight"
 )
 
 const (

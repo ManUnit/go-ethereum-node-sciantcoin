@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

@@ -21,7 +21,7 @@ package dashboard
 import (
 	"syscall"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

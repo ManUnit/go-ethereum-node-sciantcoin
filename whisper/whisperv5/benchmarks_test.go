@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

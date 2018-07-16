@@ -21,11 +21,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // Constants to match up protocol versions and messages

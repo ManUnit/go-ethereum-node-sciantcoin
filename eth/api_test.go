@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/state"
-	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

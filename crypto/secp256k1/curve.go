@@ -36,7 +36,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
 )
 
 /*

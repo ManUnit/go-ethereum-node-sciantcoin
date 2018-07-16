@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

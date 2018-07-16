@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/manunit/sciantcoin/issues/2040
+see https://github.com/manunit/go-ethereum-node-sciantcoinissues/2040
 Usage:
 
 import (
- "github.com/manunit/sciantcoin/common/httpclient"
- "github.com/manunit/sciantcoin/swarm/api/http"
+ "github.com/manunit/go-ethereum-node-sciantcoincommon/httpclient"
+ "github.com/manunit/go-ethereum-node-sciantcoinswarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

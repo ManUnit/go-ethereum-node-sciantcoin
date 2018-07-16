@@ -25,8 +25,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/crypto/sha3"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/sha3"
 )
 
 // Lengths of hashes and addresses in bytes.

@@ -19,7 +19,7 @@ package network
 import (
 	"testing"
 
-	p2ptest "github.com/manunit/sciantcoin/p2p/testing"
+	p2ptest "github.com/manunit/go-ethereum-node-sciantcoinp2p/testing"
 )
 
 /***

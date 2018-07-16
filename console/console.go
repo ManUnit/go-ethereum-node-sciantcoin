@@ -28,9 +28,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/manunit/sciantcoin/internal/jsre"
-	"github.com/manunit/sciantcoin/internal/web3ext"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/jsre"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/web3ext"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

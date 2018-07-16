@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

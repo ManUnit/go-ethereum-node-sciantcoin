@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"github.com/manunit/sciantcoin/common/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
 )
 
 var _ = (*messageOverride)(nil)

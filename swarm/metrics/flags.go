@@ -19,10 +19,10 @@ package metrics
 import (
 	"time"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	gethmetrics "github.com/manunit/sciantcoin/metrics"
-	"github.com/manunit/sciantcoin/metrics/influxdb"
-	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	gethmetrics "github.com/manunit/go-ethereum-node-sciantcoinmetrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics/influxdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

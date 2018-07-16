@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

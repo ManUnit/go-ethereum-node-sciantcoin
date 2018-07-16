@@ -36,7 +36,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // ErrNotFound indicates that the chunk is not found.

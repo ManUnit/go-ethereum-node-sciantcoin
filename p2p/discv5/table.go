@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 const (

@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/adapters"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // testService implements the node.Service interface and provides protocols

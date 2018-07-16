@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	swarm "github.com/manunit/sciantcoin/swarm/api/client"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	swarm "github.com/manunit/go-ethereum-node-sciantcoinswarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

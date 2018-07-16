@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/manunit/sciantcoin/swarm/network"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/network"
 )
 
 type Control struct {

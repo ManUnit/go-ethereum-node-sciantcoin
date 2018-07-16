@@ -26,10 +26,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/swarm/log"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 )
 
 func testAPI(t *testing.T, f func(*API, bool)) {

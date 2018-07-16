@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/swarm/api"
-	swarm "github.com/manunit/sciantcoin/swarm/api/client"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
+	swarm "github.com/manunit/go-ethereum-node-sciantcoinswarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

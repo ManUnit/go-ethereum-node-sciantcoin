@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

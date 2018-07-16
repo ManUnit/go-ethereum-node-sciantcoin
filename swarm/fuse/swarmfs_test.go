@@ -30,10 +30,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/manunit/sciantcoin/swarm/api"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 
 	colorable "github.com/mattn/go-colorable"
 )

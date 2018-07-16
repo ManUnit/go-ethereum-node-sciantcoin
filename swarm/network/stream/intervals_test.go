@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations"
-	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
-	"github.com/manunit/sciantcoin/rpc"
-	"github.com/manunit/sciantcoin/swarm/network"
-	streamTesting "github.com/manunit/sciantcoin/swarm/network/stream/testing"
-	"github.com/manunit/sciantcoin/swarm/state"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/adapters"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/network"
+	streamTesting "github.com/manunit/go-ethereum-node-sciantcoinswarm/network/stream/testing"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/state"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 )
 
 var (

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 const (

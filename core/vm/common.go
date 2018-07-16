@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
 )
 
 // calculates the memory size required for a step

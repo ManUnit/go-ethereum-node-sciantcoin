@@ -25,16 +25,16 @@ import (
 	+ACI-math/big+ACI-
 	+ACI-strings+ACI-
 
-	+ACI-github.com/manunit/sciantcoin/common+ACI-
-	+ACI-github.com/manunit/sciantcoin/common/hexutil+ACI-
-	+ACI-github.com/manunit/sciantcoin/common/math+ACI-
-	+ACI-github.com/manunit/sciantcoin/core/rawdb+ACI-
-	+ACI-github.com/manunit/sciantcoin/core/state+ACI-
-	+ACI-github.com/manunit/sciantcoin/core/types+ACI-
-	+ACI-github.com/manunit/sciantcoin/ethdb+ACI-
-	+ACI-github.com/manunit/sciantcoin/log+ACI-
-	+ACI-github.com/manunit/sciantcoin/params+ACI-
-	+ACI-github.com/manunit/sciantcoin/rlp+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoincommon+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoincommon/math+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoincore/rawdb+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoincore/state+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoincore/types+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoinethdb+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoinlog+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoinparams+ACI-
+	+ACI-github.com/manunit/go-ethereum-node-sciantcoinrlp+ACI-
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen+AF8-genesis.go

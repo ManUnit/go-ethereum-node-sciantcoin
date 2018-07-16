@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 )
 
 // SwAP Swarm Accounting Protocol with

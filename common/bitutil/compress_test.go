@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

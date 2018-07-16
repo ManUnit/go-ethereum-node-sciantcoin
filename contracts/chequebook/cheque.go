@@ -36,14 +36,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/accounts/abi/bind"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/contracts/chequebook/contract"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/swarm/services/swap/swap"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincontracts/chequebook/contract"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/services/swap/swap"
 )
 
 // TODO(zelig): watch peer solvency and notify of bouncing cheques

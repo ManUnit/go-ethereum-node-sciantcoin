@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

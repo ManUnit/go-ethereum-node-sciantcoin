@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

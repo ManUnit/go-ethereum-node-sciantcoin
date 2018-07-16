@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 type AddrLocker struct {

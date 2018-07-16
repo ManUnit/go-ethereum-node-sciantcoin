@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 var (

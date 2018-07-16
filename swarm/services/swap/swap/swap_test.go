@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 type testInPayment struct {

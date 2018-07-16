@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

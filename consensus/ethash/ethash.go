@@ -33,10 +33,10 @@ import (
 	"unsafe"
 
 	mmap "github.com/edsrzf/mmap-go"
-	"github.com/manunit/sciantcoin/consensus"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/metrics"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

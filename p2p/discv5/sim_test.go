@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // In this test, nodes try to randomly resolve each other.

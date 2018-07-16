@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

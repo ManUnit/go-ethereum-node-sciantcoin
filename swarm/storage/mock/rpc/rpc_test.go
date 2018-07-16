@@ -19,9 +19,9 @@ package rpc
 import (
 	"testing"
 
-	"github.com/manunit/sciantcoin/rpc"
-	"github.com/manunit/sciantcoin/swarm/storage/mock/mem"
-	"github.com/manunit/sciantcoin/swarm/storage/mock/test"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage/mock/mem"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage/mock/test"
 )
 
 // TestDBStore is running test for a GlobalStore

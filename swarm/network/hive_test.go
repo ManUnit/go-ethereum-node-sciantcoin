@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	p2ptest "github.com/manunit/sciantcoin/p2p/testing"
-	"github.com/manunit/sciantcoin/swarm/state"
+	p2ptest "github.com/manunit/go-ethereum-node-sciantcoinp2p/testing"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/state"
 )
 
 func newHiveTester(t *testing.T, params *HiveParams, n int, store state.Store) (*bzzTester, *Hive) {

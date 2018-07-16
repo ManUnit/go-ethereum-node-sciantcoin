@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
 )
 
 var testSigData = make([]byte, 32)

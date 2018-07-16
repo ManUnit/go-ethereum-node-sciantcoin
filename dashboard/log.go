@@ -26,7 +26,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 	"github.com/mohae/deepcopy"
 	"github.com/rjeczalik/notify"
 )

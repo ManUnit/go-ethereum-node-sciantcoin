@@ -25,7 +25,7 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 	"golang.org/x/net/context"
 )
 

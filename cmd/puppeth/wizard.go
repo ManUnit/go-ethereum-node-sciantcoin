@@ -30,9 +30,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

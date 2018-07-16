@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/manunit/sciantcoin/accounts/abi/bind"
-	"github.com/manunit/sciantcoin/common/compiler"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/compiler"
 )
 
 var (

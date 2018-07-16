@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

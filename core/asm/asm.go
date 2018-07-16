@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/manunit/sciantcoin/core/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
 )
 
 // Iterator for disassembled EVM instructions

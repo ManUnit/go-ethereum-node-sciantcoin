@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/protocols"
-	"github.com/manunit/sciantcoin/rlp"
-	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/protocols"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 )
 
 const (

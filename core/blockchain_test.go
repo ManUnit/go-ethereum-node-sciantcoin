@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/consensus"
-	"github.com/manunit/sciantcoin/consensus/ethash"
-	"github.com/manunit/sciantcoin/core/rawdb"
-	"github.com/manunit/sciantcoin/core/state"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/core/vm"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus/ethash"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/rawdb"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // So we can deterministically seed different blockchains
@@ -1231,7 +1231,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/manunit/sciantcoin/pull/15941
+// https://github.com/manunit/go-ethereum-node-sciantcoinpull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // Msg defines the structure of a p2p message.

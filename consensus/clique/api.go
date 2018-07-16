@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/consensus"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

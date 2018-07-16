@@ -19,9 +19,9 @@ package state
 import (
 	"bytes"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/rlp"
-	"github.com/manunit/sciantcoin/trie"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
+	"github.com/manunit/go-ethereum-node-sciantcointrie"
 )
 
 // NewStateSync create a new state trie download scheduler.

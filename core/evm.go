@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/consensus"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/core/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

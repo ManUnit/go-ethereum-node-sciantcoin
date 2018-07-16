@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/core/state"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 var (

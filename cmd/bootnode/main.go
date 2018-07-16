@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/discv5"
-	"github.com/manunit/sciantcoin/p2p/nat"
-	"github.com/manunit/sciantcoin/p2p/netutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discv5"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/nat"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/netutil"
 )
 
 func main() {

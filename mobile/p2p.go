@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

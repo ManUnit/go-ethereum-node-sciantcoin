@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations"
-	p2ptest "github.com/manunit/sciantcoin/p2p/testing"
-	"github.com/manunit/sciantcoin/rpc"
-	"github.com/manunit/sciantcoin/swarm/log"
-	"github.com/manunit/sciantcoin/swarm/network"
-	streamTesting "github.com/manunit/sciantcoin/swarm/network/stream/testing"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations"
+	p2ptest "github.com/manunit/go-ethereum-node-sciantcoinp2p/testing"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/network"
+	streamTesting "github.com/manunit/go-ethereum-node-sciantcoinswarm/network/stream/testing"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 )
 
 func TestStreamerRetrieveRequest(t *testing.T) {

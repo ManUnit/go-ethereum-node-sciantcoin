@@ -21,8 +21,8 @@ import (
 	"sync"
 
 	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

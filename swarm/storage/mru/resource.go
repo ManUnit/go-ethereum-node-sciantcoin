@@ -29,13 +29,13 @@ import (
 
 	"golang.org/x/net/idna"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/contracts/ens"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/swarm/log"
-	"github.com/manunit/sciantcoin/swarm/multihash"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincontracts/ens"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/multihash"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 )
 
 const (

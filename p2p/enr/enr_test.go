@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

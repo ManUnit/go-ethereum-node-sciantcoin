@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/adapters"
 )
 
 var errTimedOut = errors.New("timed out")

@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 func init() {

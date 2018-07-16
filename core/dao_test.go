@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/manunit/sciantcoin/consensus/ethash"
-	"github.com/manunit/sciantcoin/core/vm"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus/ethash"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

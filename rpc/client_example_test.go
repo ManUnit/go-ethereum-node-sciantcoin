@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

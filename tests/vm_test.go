@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/manunit/sciantcoin/core/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
 )
 
 func TestVM(t *testing.T) {

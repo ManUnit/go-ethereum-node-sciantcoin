@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
 )
 
 func ExampleNewSubscription() {

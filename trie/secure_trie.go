@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

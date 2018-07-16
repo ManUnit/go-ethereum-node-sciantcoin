@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/manunit/sciantcoin/accounts/abi"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/state"
-	"github.com/manunit/sciantcoin/core/vm"
-	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
 )
 
 func TestDefaults(t *testing.T) {

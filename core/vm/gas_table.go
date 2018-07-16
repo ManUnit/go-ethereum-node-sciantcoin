@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/math"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

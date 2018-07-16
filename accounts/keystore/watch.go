@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 	"github.com/rjeczalik/notify"
 )
 

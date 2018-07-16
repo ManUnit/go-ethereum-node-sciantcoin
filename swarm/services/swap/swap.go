@@ -27,14 +27,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/accounts/abi/bind"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/contracts/chequebook"
-	"github.com/manunit/sciantcoin/contracts/chequebook/contract"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/swarm/log"
-	"github.com/manunit/sciantcoin/swarm/services/swap/swap"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincontracts/chequebook"
+	"github.com/manunit/go-ethereum-node-sciantcoincontracts/chequebook/contract"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/services/swap/swap"
 )
 
 // SwAP       Swarm Accounting Protocol with

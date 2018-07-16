@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/p2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
 )
 
 type TestPeer interface {

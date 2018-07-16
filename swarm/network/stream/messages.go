@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/metrics"
-	"github.com/manunit/sciantcoin/swarm/log"
-	bv "github.com/manunit/sciantcoin/swarm/network/bitvector"
-	"github.com/manunit/sciantcoin/swarm/spancontext"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	bv "github.com/manunit/go-ethereum-node-sciantcoinswarm/network/bitvector"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/spancontext"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

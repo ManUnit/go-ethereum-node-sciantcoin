@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
 )
 
 var (

@@ -25,8 +25,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/manunit/sciantcoin/accounts/abi"
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

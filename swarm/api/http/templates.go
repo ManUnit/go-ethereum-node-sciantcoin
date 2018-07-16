@@ -20,7 +20,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/manunit/sciantcoin/swarm/api"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
 )
 
 type htmlListData struct {

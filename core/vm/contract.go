@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // ContractRef is a reference to the contract's backing object

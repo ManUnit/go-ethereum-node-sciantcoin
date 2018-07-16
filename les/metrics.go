@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/manunit/sciantcoin/metrics"
-	"github.com/manunit/sciantcoin/p2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
 )
 
 var (

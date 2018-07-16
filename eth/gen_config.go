@@ -5,12 +5,12 @@ package eth
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/consensus/ethash"
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/eth/downloader"
-	"github.com/manunit/sciantcoin/eth/gasprice"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus/ethash"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoineth/downloader"
+	"github.com/manunit/go-ethereum-node-sciantcoineth/gasprice"
 )
 
 var _ = (*configMarshaling)(nil)

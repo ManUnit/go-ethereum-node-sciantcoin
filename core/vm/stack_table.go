@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

@@ -9,17 +9,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations"
-	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
-	"github.com/manunit/sciantcoin/swarm/network"
-	"github.com/manunit/sciantcoin/swarm/pss"
-	"github.com/manunit/sciantcoin/swarm/state"
-	whisper "github.com/manunit/sciantcoin/whisper/whisperv5"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/adapters"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/network"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/pss"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/state"
+	whisper "github.com/manunit/go-ethereum-node-sciantcoinwhisper/whisperv5"
 )
 
 var (

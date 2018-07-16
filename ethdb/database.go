@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

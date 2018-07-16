@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

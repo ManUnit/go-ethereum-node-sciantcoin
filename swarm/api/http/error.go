@@ -28,10 +28,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/metrics"
-	"github.com/manunit/sciantcoin/swarm/api"
-	l "github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
+	l "github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 )
 
 //templateMap holds a mapping of an HTTP error code to a template

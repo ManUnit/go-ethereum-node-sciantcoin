@@ -28,10 +28,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/math"
-	"github.com/manunit/sciantcoin/crypto/sha3"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/sha3"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 var (

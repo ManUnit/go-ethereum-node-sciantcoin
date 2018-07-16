@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 type account struct {

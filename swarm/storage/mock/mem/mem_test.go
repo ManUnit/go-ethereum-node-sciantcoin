@@ -19,7 +19,7 @@ package mem
 import (
 	"testing"
 
-	"github.com/manunit/sciantcoin/swarm/storage/mock/test"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage/mock/test"
 )
 
 // TestGlobalStore is running test for a GlobalStore

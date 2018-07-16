@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 	"github.com/olekukonko/tablewriter"
 )
 

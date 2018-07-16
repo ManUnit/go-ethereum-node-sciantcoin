@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/accounts/keystore"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/eth"
-	"github.com/manunit/sciantcoin/eth/downloader"
-	"github.com/manunit/sciantcoin/ethclient"
-	"github.com/manunit/sciantcoin/ethstats"
-	"github.com/manunit/sciantcoin/les"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/discv5"
-	"github.com/manunit/sciantcoin/p2p/nat"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/keystore"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoineth"
+	"github.com/manunit/go-ethereum-node-sciantcoineth/downloader"
+	"github.com/manunit/go-ethereum-node-sciantcoinethclient"
+	"github.com/manunit/go-ethereum-node-sciantcoinethstats"
+	"github.com/manunit/go-ethereum-node-sciantcoinles"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discv5"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/nat"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 	"golang.org/x/net/websocket"
 )
 
@@ -447,7 +447,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/manunit/sciantcoin/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/manunit/go-ethereum-node-sciantcoinissues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

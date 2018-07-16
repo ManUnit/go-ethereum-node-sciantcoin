@@ -23,13 +23,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations/pipes"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/pipes"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

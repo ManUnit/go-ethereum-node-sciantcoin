@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

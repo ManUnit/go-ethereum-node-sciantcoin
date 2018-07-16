@@ -28,11 +28,11 @@
 //  	"context"
 //  	"fmt"
 //  	"os"
-//  	pss "github.com/manunit/sciantcoin/swarm/pss/client"
-//  	"github.com/manunit/sciantcoin/p2p/protocols"
-//  	"github.com/manunit/sciantcoin/p2p"
-//  	"github.com/manunit/sciantcoin/swarm/pot"
-//  	"github.com/manunit/sciantcoin/swarm/log"
+//  	pss "github.com/manunit/go-ethereum-node-sciantcoinswarm/pss/client"
+//  	"github.com/manunit/go-ethereum-node-sciantcoinp2p/protocols"
+//  	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+//  	"github.com/manunit/go-ethereum-node-sciantcoinswarm/pot"
+//  	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 //  )
 //
 //  type FooMsg struct {

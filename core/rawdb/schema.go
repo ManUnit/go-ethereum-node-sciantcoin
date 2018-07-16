@@ -20,8 +20,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
 )
 
 // The fields below define the low level database schema prefixing.

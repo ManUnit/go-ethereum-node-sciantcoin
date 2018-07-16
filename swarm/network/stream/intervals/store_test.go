@@ -20,7 +20,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/manunit/sciantcoin/swarm/state"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/state"
 )
 
 var ErrNotFound = errors.New("not found")

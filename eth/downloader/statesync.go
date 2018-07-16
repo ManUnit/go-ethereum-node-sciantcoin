@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/rawdb"
-	"github.com/manunit/sciantcoin/core/state"
-	"github.com/manunit/sciantcoin/crypto/sha3"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/trie"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/rawdb"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/sha3"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcointrie"
 )
 
 // stateReq represents a batch of state fetch requests grouped together into

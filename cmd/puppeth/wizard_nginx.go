@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

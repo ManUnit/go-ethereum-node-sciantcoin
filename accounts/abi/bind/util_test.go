@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/accounts/abi/bind"
-	"github.com/manunit/sciantcoin/accounts/abi/bind/backends"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind/backends"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

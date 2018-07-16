@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 func TestPack(t *testing.T) {

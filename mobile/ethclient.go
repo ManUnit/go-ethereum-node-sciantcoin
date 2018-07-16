@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/ethclient"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

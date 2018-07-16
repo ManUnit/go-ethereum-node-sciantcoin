@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/manunit/sciantcoin/core/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
 )
 
 func TestState(t *testing.T) {

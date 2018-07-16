@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/internal/ethapi"
-	"github.com/manunit/sciantcoin/params"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/ethapi"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

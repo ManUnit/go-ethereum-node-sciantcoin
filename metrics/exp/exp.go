@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
 )
 
 type exp struct {

@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

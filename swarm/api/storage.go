@@ -20,7 +20,7 @@ import (
 	"context"
 	"path"
 
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 )
 
 type Response struct {

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

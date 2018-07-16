@@ -19,9 +19,9 @@ package core
 import (
 	"container/list"
 
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
 )
 
 // Implement our EthTest Manager

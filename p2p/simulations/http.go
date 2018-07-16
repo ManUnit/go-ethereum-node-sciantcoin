@@ -29,11 +29,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/adapters"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 	"github.com/julienschmidt/httprouter"
 	"golang.org/x/net/websocket"
 )

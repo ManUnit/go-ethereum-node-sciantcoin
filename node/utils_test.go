@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

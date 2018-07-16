@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/consensus"
-	"github.com/manunit/sciantcoin/core/state"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

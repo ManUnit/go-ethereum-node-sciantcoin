@@ -19,10 +19,10 @@ package les
 import (
 	"context"
 
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/light"
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoinlight"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // LesOdr implements light.OdrBackend

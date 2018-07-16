@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations"
-	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 )
 
 var (

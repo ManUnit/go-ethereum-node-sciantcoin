@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/manunit/sciantcoin/common/math"
-	"github.com/manunit/sciantcoin/core/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
 )
 
 // Compiler contains information about the parsed source

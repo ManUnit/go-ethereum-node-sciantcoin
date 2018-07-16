@@ -32,14 +32,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations"
-	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
-	"github.com/manunit/sciantcoin/rlp"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/adapters"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

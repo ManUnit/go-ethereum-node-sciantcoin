@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/manunit/sciantcoin/swarm/state"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/state"
 )
 
 // TestDBStore tests basic functionality of DBStore.

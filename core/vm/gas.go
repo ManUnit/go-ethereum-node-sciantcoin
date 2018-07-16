@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // Gas costs

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

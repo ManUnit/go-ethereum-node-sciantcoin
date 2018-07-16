@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

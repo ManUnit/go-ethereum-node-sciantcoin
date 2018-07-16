@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/manunit/sciantcoin/crypto"
+	ethcrypto "github.com/manunit/go-ethereum-node-sciantcoincrypto"
 )
 
 var (

@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 const (

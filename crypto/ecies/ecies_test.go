@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
 )
 
 var dumpEnc bool

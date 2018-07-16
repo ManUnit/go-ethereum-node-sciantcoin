@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/adapters"
 )
 
 // TestNetworkSimulation creates a multi-node simulation network with each node

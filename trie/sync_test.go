@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/crypto/sha3"
-	p2ptest "github.com/manunit/sciantcoin/p2p/testing"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/sha3"
+	p2ptest "github.com/manunit/go-ethereum-node-sciantcoinp2p/testing"
 )
 
 func TestStreamerSubscribe(t *testing.T) {

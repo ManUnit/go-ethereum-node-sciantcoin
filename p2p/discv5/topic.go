@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/manunit/sciantcoin/common/mclock"
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/mclock"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 const (

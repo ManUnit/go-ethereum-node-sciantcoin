@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 	"github.com/jackpal/go-nat-pmp"
 )
 

@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/mclock"
-	"github.com/manunit/sciantcoin/event"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/discv5"
-	"github.com/manunit/sciantcoin/p2p/nat"
-	"github.com/manunit/sciantcoin/p2p/netutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/mclock"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discv5"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/nat"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/netutil"
 )
 
 const (

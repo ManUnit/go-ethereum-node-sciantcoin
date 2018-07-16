@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"github.com/manunit/sciantcoin/core/state"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
 )
 
 func TestBloom9(t *testing.T) {

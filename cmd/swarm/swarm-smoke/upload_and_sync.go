@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 	"github.com/pborman/uuid"
 
 	cli "gopkg.in/urfave/cli.v1"

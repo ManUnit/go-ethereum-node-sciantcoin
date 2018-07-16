@@ -25,11 +25,11 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/accounts/abi/bind"
-	"github.com/manunit/sciantcoin/accounts/abi/bind/backends"
-	"github.com/manunit/sciantcoin/contracts/chequebook/contract"
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind/backends"
+	"github.com/manunit/go-ethereum-node-sciantcoincontracts/chequebook/contract"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
 )
 
 var (

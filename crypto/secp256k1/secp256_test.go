@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common/math"
-	"github.com/manunit/sciantcoin/crypto/randentropy"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/randentropy"
 )
 
 const TestCount = 1000

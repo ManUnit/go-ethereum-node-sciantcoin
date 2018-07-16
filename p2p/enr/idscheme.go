@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common/math"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/crypto/sha3"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/sha3"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // Registry of known identity schemes.

@@ -25,9 +25,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/manunit/sciantcoin/swarm/api"
-	swarmhttp "github.com/manunit/sciantcoin/swarm/api/http"
-	"github.com/manunit/sciantcoin/swarm/testutil"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
+	swarmhttp "github.com/manunit/go-ethereum-node-sciantcoinswarm/api/http"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/testutil"
 )
 
 func serverFunc(api *api.API) testutil.TestServer {

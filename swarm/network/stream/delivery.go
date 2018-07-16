@@ -21,13 +21,13 @@ import (
 	"errors"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/metrics"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/swarm/log"
-	"github.com/manunit/sciantcoin/swarm/network"
-	"github.com/manunit/sciantcoin/swarm/spancontext"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/network"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/spancontext"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

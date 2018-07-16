@@ -21,7 +21,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
 )
 
 // Manager is an overarching account manager that can communicate with various

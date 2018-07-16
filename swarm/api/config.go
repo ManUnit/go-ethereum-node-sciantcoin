@@ -23,16 +23,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/contracts/ens"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/swarm/log"
-	"github.com/manunit/sciantcoin/swarm/network"
-	"github.com/manunit/sciantcoin/swarm/pss"
-	"github.com/manunit/sciantcoin/swarm/services/swap"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincontracts/ens"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/network"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/pss"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/services/swap"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 )
 
 const (

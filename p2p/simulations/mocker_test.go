@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/p2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
 )
 
 func TestMocker(t *testing.T) {

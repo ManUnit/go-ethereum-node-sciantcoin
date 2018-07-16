@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/common/hexutil"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/internal/ethapi"
-	"github.com/manunit/sciantcoin/signer/core"
-	"github.com/manunit/sciantcoin/signer/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/hexutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/ethapi"
+	"github.com/manunit/go-ethereum-node-sciantcoinsigner/core"
+	"github.com/manunit/go-ethereum-node-sciantcoinsigner/storage"
 )
 
 const JS = `

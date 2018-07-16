@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

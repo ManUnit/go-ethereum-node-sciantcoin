@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

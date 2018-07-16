@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/manunit/sciantcoin/common/bitutil"
-	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/bitutil"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

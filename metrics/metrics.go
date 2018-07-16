@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // Enabled is checked by the constructor functions for all of the

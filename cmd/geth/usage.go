@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/internal/debug"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoininternal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/manunit/sciantcoin/cmd/evm/internal/compiler"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

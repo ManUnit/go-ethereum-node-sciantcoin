@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/p2p/netutil"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

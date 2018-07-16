@@ -25,10 +25,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/swarm/api"
-	"github.com/manunit/sciantcoin/swarm/storage"
-	"github.com/manunit/sciantcoin/swarm/storage/mru"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage/mru"
 )
 
 type TestServer interface {

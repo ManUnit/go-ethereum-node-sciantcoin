@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

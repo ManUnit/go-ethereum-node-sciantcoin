@@ -27,8 +27,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/swarm/storage/mock"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage/mock"
 )
 
 // GlobalStore contains the LevelDB database that is storing

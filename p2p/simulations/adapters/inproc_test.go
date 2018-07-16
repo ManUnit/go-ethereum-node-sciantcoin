@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/p2p/simulations/pipes"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

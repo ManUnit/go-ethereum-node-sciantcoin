@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

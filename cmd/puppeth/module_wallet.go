@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

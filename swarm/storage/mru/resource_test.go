@@ -30,17 +30,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/accounts/abi/bind"
-	"github.com/manunit/sciantcoin/accounts/abi/bind/backends"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/contracts/ens"
-	"github.com/manunit/sciantcoin/contracts/ens/contract"
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/swarm/multihash"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi/bind/backends"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincontracts/ens"
+	"github.com/manunit/go-ethereum-node-sciantcoincontracts/ens/contract"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/multihash"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 )
 
 var (

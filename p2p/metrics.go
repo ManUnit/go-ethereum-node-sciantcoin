@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/manunit/sciantcoin/metrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
 )
 
 var (

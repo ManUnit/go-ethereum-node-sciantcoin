@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/manunit/sciantcoin/accounts/abi"
+import "github.com/manunit/go-ethereum-node-sciantcoinaccounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

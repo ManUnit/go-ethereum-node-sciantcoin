@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/crypto/sha3"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto/sha3"
 )
 
 // the actual data length generated (could be longer than max datalength of the BMT)

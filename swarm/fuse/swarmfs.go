@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/swarm/api"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
 )
 
 const (

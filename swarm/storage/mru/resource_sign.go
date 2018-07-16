@@ -19,8 +19,8 @@ package mru
 import (
 	"crypto/ecdsa"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
 )
 
 // Signs resource updates

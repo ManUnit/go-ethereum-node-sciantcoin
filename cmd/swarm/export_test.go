@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/manunit/sciantcoin/swarm"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm"
 )
 
 // TestCLISwarmExportImport perform the following test:

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

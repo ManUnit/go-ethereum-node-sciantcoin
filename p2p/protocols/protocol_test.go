@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/p2p"
-	"github.com/manunit/sciantcoin/p2p/discover"
-	"github.com/manunit/sciantcoin/p2p/simulations/adapters"
-	p2ptest "github.com/manunit/sciantcoin/p2p/testing"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discover"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/simulations/adapters"
+	p2ptest "github.com/manunit/go-ethereum-node-sciantcoinp2p/testing"
 )
 
 // handshake message type

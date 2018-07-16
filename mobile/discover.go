@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/manunit/sciantcoin/p2p/discv5"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/discv5"
 )
 
 // Enode represents a host on the network.

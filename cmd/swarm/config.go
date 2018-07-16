@@ -29,13 +29,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/log"
-	"github.com/manunit/sciantcoin/node"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
 	"github.com/naoina/toml"
 
-	bzzapi "github.com/manunit/sciantcoin/swarm/api"
+	bzzapi "github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
 )
 
 const SWARM_VERSION = "0.3.1-unstable"
@@ -93,7 +93,7 @@ var tomlSettings = toml.Config{
 	MissingField: func(rt reflect.Type, field string) error {
 		link := ""
 		if unicode.IsUpper(rune(rt.Name()[0])) && rt.PkgPath() != "main" {
-			link = fmt.Sprintf(", check github.com/manunit/sciantcoin/swarm/api/config.go for available fields")
+			link = fmt.Sprintf(", check github.com/manunit/go-ethereum-node-sciantcoinswarm/api/config.go for available fields")
 		}
 		return fmt.Errorf("field '%s' is not defined in %s%s", field, rt.String(), link)
 	},

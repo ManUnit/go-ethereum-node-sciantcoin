@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/crypto"
-	whisper "github.com/manunit/sciantcoin/whisper/whisperv6"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	whisper "github.com/manunit/go-ethereum-node-sciantcoinwhisper/whisperv6"
 )
 
 const powRequirement = 0.00001

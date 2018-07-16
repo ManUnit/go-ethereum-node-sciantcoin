@@ -34,7 +34,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/manunit/sciantcoin/swarm/api"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/api"
 )
 
 var (

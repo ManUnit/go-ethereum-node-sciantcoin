@@ -21,9 +21,9 @@ import (
 	"math/big"
 
 	ethereum "github.com/manunit/sciantcoin"
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/event"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinevent"
 )
 
 // Account represents an Ethereum account located at a specific location defined

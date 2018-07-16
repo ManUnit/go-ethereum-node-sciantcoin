@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 type (

@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/manunit/sciantcoin/common/math"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon/math"
 )
 
 func memorySha3(stack *Stack) *big.Int {

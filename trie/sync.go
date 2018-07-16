@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/ethdb"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

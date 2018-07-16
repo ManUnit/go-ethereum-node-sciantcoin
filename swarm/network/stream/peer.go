@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/manunit/sciantcoin/metrics"
-	"github.com/manunit/sciantcoin/p2p/protocols"
-	"github.com/manunit/sciantcoin/swarm/log"
-	pq "github.com/manunit/sciantcoin/swarm/network/priorityqueue"
-	"github.com/manunit/sciantcoin/swarm/network/stream/intervals"
-	"github.com/manunit/sciantcoin/swarm/spancontext"
-	"github.com/manunit/sciantcoin/swarm/state"
-	"github.com/manunit/sciantcoin/swarm/storage"
+	"github.com/manunit/go-ethereum-node-sciantcoinmetrics"
+	"github.com/manunit/go-ethereum-node-sciantcoinp2p/protocols"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
+	pq "github.com/manunit/go-ethereum-node-sciantcoinswarm/network/priorityqueue"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/network/stream/intervals"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/spancontext"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/state"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/storage"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

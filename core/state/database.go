@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/ethdb"
-	"github.com/manunit/sciantcoin/trie"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinethdb"
+	"github.com/manunit/go-ethereum-node-sciantcointrie"
 	lru "github.com/hashicorp/golang-lru"
 )
 

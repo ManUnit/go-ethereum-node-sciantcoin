@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/manunit/sciantcoin/core"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincore"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

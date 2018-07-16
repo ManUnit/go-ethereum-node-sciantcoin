@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
 )
 
 // senderCacher is a concurrent tranaction sender recoverer anc cacher.

@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

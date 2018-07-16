@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/rlp"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinrlp"
 )
 
 // Entry is implemented by known node record entry types.

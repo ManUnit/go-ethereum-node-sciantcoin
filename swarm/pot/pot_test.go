@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/swarm/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinswarm/log"
 )
 
 const (

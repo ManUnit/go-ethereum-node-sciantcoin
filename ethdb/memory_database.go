@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 )
 
 /*

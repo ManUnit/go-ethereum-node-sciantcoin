@@ -27,12 +27,12 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/dashboard"
-	"github.com/manunit/sciantcoin/eth"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/params"
-	whisper "github.com/manunit/sciantcoin/whisper/whisperv6"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoindashboard"
+	"github.com/manunit/go-ethereum-node-sciantcoineth"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
+	whisper "github.com/manunit/go-ethereum-node-sciantcoinwhisper/whisperv6"
 	"github.com/naoina/toml"
 )
 

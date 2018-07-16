@@ -20,8 +20,8 @@ import (
 	"math/big"
 
 	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/manunit/sciantcoin/accounts"
-	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/go-ethereum-node-sciantcoinaccounts"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

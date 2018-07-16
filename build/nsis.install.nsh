@@ -3,8 +3,8 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/manunit/sciantcoin/issues"
-!define UPDATEURL "https://github.com/manunit/sciantcoin/releases"
+!define HELPURL "https://github.com/manunit/go-ethereum-node-sciantcoinissues"
+!define UPDATEURL "https://github.com/manunit/go-ethereum-node-sciantcoinreleases"
 !define ABOUTURL "https://github.com/ethereum/go-ethereum#ethereum-go"
 !define /date NOW "%Y%m%d"
 

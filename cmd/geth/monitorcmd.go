@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/manunit/sciantcoin/cmd/utils"
-	"github.com/manunit/sciantcoin/node"
-	"github.com/manunit/sciantcoin/rpc"
+	"github.com/manunit/go-ethereum-node-sciantcoincmd/utils"
+	"github.com/manunit/go-ethereum-node-sciantcoinnode"
+	"github.com/manunit/go-ethereum-node-sciantcoinrpc"
 	"github.com/gizak/termui"
 	"gopkg.in/urfave/cli.v1"
 )

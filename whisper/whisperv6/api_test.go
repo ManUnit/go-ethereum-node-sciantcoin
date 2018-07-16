@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/manunit/sciantcoin/common"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
 	set "gopkg.in/fatih/set.v0"
 )
 

@@ -17,14 +17,14 @@
 package core
 
 import (
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/consensus"
-	"github.com/manunit/sciantcoin/consensus/misc"
-	"github.com/manunit/sciantcoin/core/state"
-	"github.com/manunit/sciantcoin/core/types"
-	"github.com/manunit/sciantcoin/core/vm"
-	"github.com/manunit/sciantcoin/crypto"
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus"
+	"github.com/manunit/go-ethereum-node-sciantcoinconsensus/misc"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/state"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/vm"
+	"github.com/manunit/go-ethereum-node-sciantcoincrypto"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

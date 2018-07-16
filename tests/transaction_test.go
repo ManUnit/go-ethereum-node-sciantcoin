@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/manunit/sciantcoin/params"
+	"github.com/manunit/go-ethereum-node-sciantcoinparams"
 )
 
 func TestTransaction(t *testing.T) {

@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/manunit/sciantcoin/log"
+	"github.com/manunit/go-ethereum-node-sciantcoinlog"
 	"golang.org/x/net/websocket"
 	"gopkg.in/fatih/set.v0"
 )

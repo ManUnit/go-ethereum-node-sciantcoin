@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/manunit/sciantcoin/common"
-	"github.com/manunit/sciantcoin/core/types"
+	"github.com/manunit/go-ethereum-node-sciantcoincommon"
+	"github.com/manunit/go-ethereum-node-sciantcoincore/types"
 )
 
 // noopHeaderRetriever is an implementation of headerRetriever that always
